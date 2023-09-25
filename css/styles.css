@@ -1,0 +1,128 @@
+/*Principal y variables*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:ital,wght@0,300;0,400;0,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --clr-black: #191919;
+    --clr-red: #E50914;
+    --clr-grey: #707070;
+    --clr-grey2: #3d3d3d;
+    --clr-grey3: #262429b3;
+    --clr-white: #ebebeb;
+    --clr-red2: #db050f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 964px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:hover{
+    color: var(--clr-red);
+    font-weight: 700;
+    border-bottom-color: var(--clr-red);
+}
+
+.nav-logo img{
+    margin-top: 2.3rem;
+    width: 120px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: var(--clr-grey2);
+    color: var(--clr-white);
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: var(--clr-grey);
+}
+
+.btn:hover{
+    background-color: var(--clr-grey3);
+    border-color: var(--clr-red);
+    font-weight: bold;
+}
+
+/*Header*/
+header{
+    position: relative;
+    padding: 0 5rem;
+}
+
+.nav-main{
+    width: 100%;
+    height: 60px;
+    /* max-width: 1200px; */
+    /* padding-inline: 10rem; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-main .nav-links{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+    color: var(--clr-white);
+    text-align: center;
+    justify-content: end;
+    align-items: flex-start;
+    padding-left: 3rem;
+    height: 80%;
+}
+
+.play-text{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem 0;
+}
+
+.play-text h2, p{
+    justify-content: end;
+    text-align: start;
+}
+
+.img-venom{
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.play-img{
+    display: flex;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+.img-play{
+    width: 3rem;
+}
+
